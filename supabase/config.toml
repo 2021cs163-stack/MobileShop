@@ -1,0 +1,4 @@
+[functions.manage-user]
+# The function validates the bearer token with auth.getUser(). This supports
+# Supabase publishable keys and avoids reliance on legacy gateway JWT checks.
+verify_jwt = false
